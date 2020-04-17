@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Aggrey: Profile Webpage</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="root">
+    <nav>
+        <ul>
+            <li class="navlist">
+                <a class="navlistitem" href="#home">Home</a>
+            </li>
+            <li  class="navlist">
+                <a class="navlistitem"  href="#biodata">Biodata</a>
+            </li>
+            <li  class="navlist">
+                <a class="navlistitem"  href="#contact">Contact Me</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="bannerDiv">
+        <a id="home"></a>
+        <img src="p2.jpeg" alt="">
+        <h2 class="centered" >
+        Welcome to my profile webpage
+        </h2>
+    </div>
+    <div class="aboutMe">
+        <h1>About Me</h1>
+    
+        <p>
+            I am passionate about how technology especially Internet Technology can be used in Business operations to
+            increase efficiency and productivity. Specifically, Intranet, CRM, database Technology, Servers etc
+        </p>
+        <a id="biodata">
+        <p>
+            I love the creativity that involves tackling problems and reaching new solutions that will allow individuals and
+            companies deliver on their goals
+        </p>
+    
+        <p>
+            My hobbies includes Watching Sci-fi TV series like WestWorld, epic movies, listening to music and programming
+        </p>
+    </div>
+    
+    <div class="container">
+        
+        <div class="imageWrapper">
+            <img src="me.png" alt="">
+        </div>
+        <div class="dataWrapper">
+            
+            <ul class="datalist">
+                <li>Name: Gabriel Ayo Aggrey</li>
+                <li>State of origin: Lagos state</li>
+                <li>Date of Birth: 04/07/1985</li>
+                <li>Address: Ajah, Lagos</li>
+                <li>Occupation: Aspiring Web Developer</li>
+                <li>Hometown: Iyafin, Badagry</li>
+                <li>Slack ID: SNG-01543</li>
+            </ul>
+        </div>
+    </div>
+   
+
+    <div class="formDiv">
+        <form action="" method="POST">
+            <h1 style="text-align: center;">Contact Me</h1>
+            <a id="contact"></a>
+            <p>
+                <label for="name">Your Name:</label>
+                <input type="text" name="name" id="name" placeholder="Your fullname" required>
+            </p>
+            <p>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" placeholder="Your email address" required>
+            </p>
+            <p>
+                <label for="phone">Enter your phone number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}">
+            </p>
+            <p>
+                <label for="message">Your Message:</label><br>
+                
+                <textarea id="message" rows="4" cols="50">
+                
+                </textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>
